@@ -1,0 +1,15 @@
+﻿Chức năng 1:
+mkdir smartfarm-system/docs , smartfarm-system/scripts , smartfarm-system/data , smartfarm-system/backup
+
+
+(khi dùng đường dẫn tương đối , hiện tại đang ở thư mục data và sử dụng đường dẫn tương đối nó sẽ lui về một cấp trong thư mục cha là smartfarm)
+New-Item ..\DB_PASSWORD=demo_123456
+
+
+(New-Item DB_PASSWORD=demo_123456.env).Attributes = “Hidden”
+
+
+
+
+Chức năng 2:
+New-item  ./smartfarm-system/scripts/auto_script.ps1
